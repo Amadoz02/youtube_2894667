@@ -155,7 +155,21 @@ a.menu:hover{
     transition: 0.5s;
 }
 .sidebar{
+    padding-top: 10%;
     grid-area: sidebar;
+    background-color: #121212;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sidebar__item{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: #f2f2f2;
+
 }
 .content{
     grid-area: container;
