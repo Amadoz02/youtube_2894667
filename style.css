@@ -47,19 +47,30 @@ img.img{
     height: 56px;
     padding-left: 10px;
     letter-spacing: 1px;
-    margin-right: 15%;
+    gap:10px;
+    margin-right: 20px;
 
 }
 .logo-youtube{
-    width: 80%;
-    height: 60%;
+    width: 45px;
+    height: 35px;
     padding: 0 5px;
 }
 a.menu{
+    display: flex;
+    width: 50px;
+    height: 50px;
     text-decoration: none;
     color: aliceblue;
     font-weight: 100;
     font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+a.menu:hover{
+    background-color: #313131;
+    transition: 0.4s;
+    border-radius: 50%;
 }
 
 
@@ -135,8 +146,14 @@ a.menu{
     align-items: center;
 }
 
-
-
+.header__busquedas button:hover{
+    background-color: #95b8c4;
+    transition: 0.5s;
+}
+.header__perfil a:hover{
+    background-color: #95b8c4;
+    transition: 0.5s;
+}
 .sidebar{
     grid-area: sidebar;
 }
