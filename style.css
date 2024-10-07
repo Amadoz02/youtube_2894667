@@ -321,3 +321,46 @@ i{
     color: #aaa;
     margin-top: 10px;
 }
+
+
+
+
+
+/* responsivo */
+
+
+
+
+
+@media (max-width:1200px){
+    body{
+        grid-template-columns: 70px 1fr;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .sidebar__text, .sidebar__item span{
+        display: none;
+    }
+    .sidebar__item{
+        padding: 0px 20px;
+
+        align-content: center;
+        justify-content: center;
+    }
+    .sidebar__items{
+        padding:0;
+        margin: 0;
+        margin-left: 10px;
+        
+    }
+    .sidebar__item i{
+        margin: 0;
+        padding-left:0 ;
+        padding-right: 0;
+        
+    }
+    .chips-warpper{
+        max-width: calc(100vw - 70px);
+    }
+
+}
