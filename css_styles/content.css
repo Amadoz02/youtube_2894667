@@ -1,0 +1,112 @@
+
+.content{
+    grid-area: container;
+    overflow-x: hidden;
+    background-color: #181818;
+
+}
+.chips-warpper{
+    max-width: calc(100vw - 240px);
+    overflow-x: scroll;
+    display: flex;
+    background-color: #181818;
+    padding: 0px 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    
+}
+
+.chips-warpper::-webkit-scrollbar-thumb{
+    background-color: #717171;
+}
+.chips-warpper::-webkit-scrollbar{
+    height: 6px;
+}
+
+.chips{
+    margin: 6px 6px;
+    padding: 6px 12px;
+    background-color: #373737;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 16px;
+    white-space: nowrap;
+    font-size: 0.9rem;
+}
+
+.content__gal-video{
+    display: grid;
+    gap: 18px;
+    padding: 20px;
+
+    overflow-y: scroll;
+    height: calc(100vh - 106px);
+    /* height: 100%; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 5fr));
+    /* grid-template-rows: repeat(auto-fill, minmax(250px, 4fr)); */
+    grid-auto-rows: max-content;
+    grid-auto-flow: dense;
+    
+}
+.content__gal-video::-webkit-scrollbar-thumb{
+    background-color: #717171;
+}
+.content__gal-video::-webkit-scrollbar{
+    height: 6px;
+}
+.video-box{
+    position: relative;
+}
+.video-contenido{
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+    padding: 8px;
+    border-radius: 12px;
+}
+.video-contenido:hover{
+    background-color: #373737;
+    transition: 0.4s;
+}
+.video-box{
+    position: relative;
+    width: auto;
+    height: 145px;
+    display: block;
+
+}
+.video-box img.img-video{
+    object-fit: cover;
+    border-radius: 12px;
+}
+.video-detail{
+    display: flex;
+    color: #ffffff;
+    padding-top: 12px;
+}
+.chanel-logo{
+    position: relative;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+    min-width: 35px;
+}
+.title{
+
+    font-size: 0.9rem;
+}
+.detail{
+    margin-left: 12px;
+}
+.chanel-name{
+    display: flex;
+    font-size: 0.8rem;
+    color: #aaa;
+
+}
+.views-oupload{
+    display: flex;
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 10px;
+}

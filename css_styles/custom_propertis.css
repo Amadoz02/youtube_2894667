@@ -1,0 +1,21 @@
+:root{
+    --color_blanco: #fff;
+    --color_negro: #000;
+    --transicion: 0.5s;
+    --gris_medio: #313131;
+    --gris_alto: #121212;
+    --gris_bordes: 1px solid rgba(255, 255, 255, 0.1);
+    --gris_sidebar: #212121;
+    --scroll_color: #717171;
+    --bordes-sidebar:12px;
+    --texto-color-sidebar: #aaa;
+    --tamano_icon_sidebar:1.5rem;
+    --letra-sidebar: 0.9rem;
+}
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: transparent;
+    border-radius: 5px;
+}

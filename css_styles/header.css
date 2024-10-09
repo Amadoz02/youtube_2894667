@@ -1,0 +1,103 @@
+/* ENCABESADO DE YOUTUBE, LOGO, 
+BARRA DE BUSQUEDA Y PERFIL */
+
+.boton{
+    display: flex;
+    width: 41px;
+    height: 41px;
+    min-width: 41px;
+    background-color: var(--gris_alto);
+    border-radius: 50%;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color_blanco);
+    justify-content: center;
+    align-items: center;
+    border: var(--gris_bordes);
+}
+.boton:hover{
+    background-color: var(--gris_medio);
+    transition: var(--transicion);
+}
+.youtube__header{
+    grid-area: header;
+    /* top: 0;
+    left: 0; */
+    background-color: var(--color_negro);
+    width: 100%;
+    color: var(--color_blanco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    gap: 25px;
+}
+.header__logo-menu{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 56px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    gap:10px;
+}
+.logo-youtube{
+    width: 45px;
+    height: 35px;
+    padding: 0 5px;
+}
+div a.boton--menu{
+    background-color: var(--color_negro);
+    border: none;
+} 
+.header__busquedas{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    flex:0 1 685px;
+}
+.barra-icono{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.header__busquedas .barra-busqueda{
+    height: 41px;
+    width: 100%;
+    background-color: var(--gris_alto);
+    color: var(--color_blanco);
+    padding: 12px;
+    outline: none;
+    border:var(--gris_bordes);
+    border-radius: 10px 0 0 10px;
+}
+form button.boton--lupa {
+    min-width: 40px;
+    background-color: var(--gris_medio);
+    border-radius: 0 10px 10px 0;
+}
+.boton--lupa:hover{
+    background-color: var(--gris_alto);
+}
+.header__perfil{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 25px;
+
+}
+.header__perfil>.img--perfil{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    background-color: var(--color_blanco);
+    border-radius: 50%;
+}
+
+.img--perfil:hover{
+    background-color: var(--gris_medio);
+    transition: var(--transicion);
+}
