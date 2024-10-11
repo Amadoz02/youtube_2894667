@@ -11,7 +11,9 @@
     --texto-color-sidebar: #aaa;
     --tamano_icon_sidebar:1.5rem;
     --letra-sidebar: 0.9rem;
-}
+    --fondo-contenido-galeria: #181818;
+    --fondo-chips:#373737;
+}   
 ::-webkit-scrollbar{
     width: 7px;
 }

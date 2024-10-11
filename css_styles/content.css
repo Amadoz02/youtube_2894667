@@ -1,71 +1,60 @@
 
-.content{
+.youtube__content{
     grid-area: container;
     overflow-x: hidden;
-    background-color: #181818;
+    background-color: var(--fondo-contenido-galeria);
 
 }
 .chips-warpper{
     max-width: calc(100vw - 240px);
     overflow-x: scroll;
     display: flex;
-    background-color: #181818;
+    background-color: var(--fondo-contenido-galeria);
     padding: 0px 14px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: var(--gris_bordes);
     
 }
-
 .chips-warpper::-webkit-scrollbar-thumb{
-    background-color: #717171;
+    background-color: var(--scroll_color);
 }
 .chips-warpper::-webkit-scrollbar{
     height: 6px;
 }
-
 .chips{
     margin: 6px 6px;
     padding: 6px 12px;
-    background-color: #373737;
-    color: #fff;
+    background-color: var(--fondo-chips);
+    color:var(--color_blanco);
     cursor: pointer;
     border-radius: 16px;
     white-space: nowrap;
-    font-size: 0.9rem;
+    font-size: var(--letra-sidebar);
 }
-
 .content__gal-video{
     display: grid;
     gap: 18px;
     padding: 20px;
-
     overflow-y: scroll;
     height: calc(100vh - 106px);
-    /* height: 100%; */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 5fr));
-    /* grid-template-rows: repeat(auto-fill, minmax(250px, 4fr)); */
     grid-auto-rows: max-content;
     grid-auto-flow: dense;
-    
 }
 .content__gal-video::-webkit-scrollbar-thumb{
-    background-color: #717171;
+    background-color: var(--scroll_color);
 }
 .content__gal-video::-webkit-scrollbar{
     height: 6px;
 }
-.video-box{
-    position: relative;
-}
 .video-contenido{
     margin-bottom: 15px;
-    position: relative;
     width: 100%;
     padding: 8px;
     border-radius: 12px;
 }
 .video-contenido:hover{
-    background-color: #373737;
+    background-color: var(--fondo-chips);
     transition: 0.4s;
 }
 .video-box{
@@ -81,7 +70,7 @@
 }
 .video-detail{
     display: flex;
-    color: #ffffff;
+    color: var(--color_blanco);
     padding-top: 12px;
 }
 .chanel-logo{
@@ -93,7 +82,7 @@
 }
 .title{
 
-    font-size: 0.9rem;
+    font-size: var(--letra-sidebar);
 }
 .detail{
     margin-left: 12px;
@@ -101,12 +90,12 @@
 .chanel-name{
     display: flex;
     font-size: 0.8rem;
-    color: #aaa;
+    color: var(--texto-color-sidebar);
 
 }
 .views-oupload{
     display: flex;
     font-size: 0.8rem;
-    color: #aaa;
+    color: var(--texto-color-sidebar);
     margin-top: 10px;
 }

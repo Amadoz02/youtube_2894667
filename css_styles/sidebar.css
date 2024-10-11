@@ -1,5 +1,5 @@
 
-.sidebar{
+.youtube__sidebar{
     padding-top: 10px;
     grid-area: sidebar;
     background-color: var(--gris_sidebar);
@@ -7,7 +7,7 @@
     height: 100%;
     overflow-y: scroll;
 }
-.sidebar::-webkit-scrollbar-thumb{
+.youtube__sidebar::-webkit-scrollbar-thumb{
     background-color: var(--scroll_color);
 }
 .sidebar__items{
